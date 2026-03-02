@@ -95,4 +95,14 @@ Prison-Management-System/
 
 ---
 
+## 👥 Contributors
+**Sruthi Mukundhan**
+**Vijay R K**
+**Yamuna R**
+
+- **Sruthi Mukundhan**
+- **Vijay R K **
+- **Yamuna R**
+
+
 A scalable digital solution designed to modernize prison administration, legal coordination, and inmate management workflows.
