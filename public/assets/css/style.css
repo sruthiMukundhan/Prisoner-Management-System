@@ -1,0 +1,146 @@
+/* ===============================
+   THEME VARIABLES
+================================ */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #111827;
+    --card-bg: #f9fafb;
+    --nav-bg: #ffffff;
+    --border-color: #e5e7eb;
+}
+
+/* ===============================
+   DARK MODE
+================================ */
+body.dark_mode {
+    --bg-color: #020617;
+    --text-color: #ffffff;
+    --card-bg: #020617;
+    --nav-bg: #020617;
+    --border-color: rgba(255,255,255,0.15);
+}
+
+/* ===============================
+   BASE
+================================ */
+body {
+    margin: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: Arial, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* ===============================
+   HEADER
+================================ */
+header {
+    background-color: var(--nav-bg);
+    border-bottom: 1px solid var(--border-color);
+}
+
+/* ===============================
+   LINKS
+================================ */
+a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* ===============================
+   BUTTON
+================================ */
+button {
+    background-color: var(--card-bg);
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* ===============================
+   DARK MODE
+================================ */
+
+/* ===== DARK MODE GLOBAL ===== */
+
+.dark-mode {
+    background-color: #0f172a !important;
+    color: #f1f5f9 !important;
+}
+
+/* HEADER + FOOTER */
+.dark-mode header,
+.dark-mode footer {
+    background-color: #111827 !important;
+    border-color: #1f2937 !important;
+}
+
+/* MAIN CONTAINERS */
+.dark-mode main,
+.dark-mode .container,
+.dark-mode .max-w-7xl {
+    background: transparent !important;
+}
+
+/* CARDS */
+.dark-mode .bg-white,
+.dark-mode .bg-gray-50,
+.dark-mode .bg-gray-100,
+.dark-mode .bg-gray-200 {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+}
+
+/* TABLE FULL FIX */
+.dark-mode table {
+    background-color: #1e293b !important;
+    color: #f8fafc !important;
+    border-color: #334155 !important;
+}
+
+.dark-mode thead,
+.dark-mode thead tr {
+    background-color: #0f172a !important;
+}
+
+.dark-mode th {
+    color: #cbd5e1 !important;
+}
+
+.dark-mode td {
+    color: #e2e8f0 !important;
+}
+
+.dark-mode tr {
+    border-color: #334155 !important;
+}
+
+/* LINKS */
+.dark-mode a {
+    color: #93c5fd !important;
+}
+
+/* BUTTON FIX */
+.dark-mode button {
+    background-color: #334155 !important;
+    color: white !important;
+    border-color: #475569 !important;
+}
+
+/* FORCE FIX TABLE HEADER */
+.dark-mode thead.bg-gray-100,
+.dark-mode tr.bg-gray-100,
+.dark-mode .bg-gray-100 {
+    background-color: #0f172a !important;
+}
+
+/* FORCE FIX TABLE HEADER TEXT */
+.dark-mode thead th {
+    color: #cbd5e1 !important;
+}
+
+/* Remove any light gray row background */
+.dark-mode tbody tr {
+    background-color: #1e293b !important;
+}
