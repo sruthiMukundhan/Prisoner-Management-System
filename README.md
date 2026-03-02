@@ -101,7 +101,7 @@ Prison-Management-System/
 **Yamuna R**
 
 - **Sruthi Mukundhan**
-- **Vijay R K **
+- **Vijay R K**
 - **Yamuna R**
 
 
